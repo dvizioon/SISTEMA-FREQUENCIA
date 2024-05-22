@@ -52,8 +52,7 @@ O **Sistema de Frequência** é uma plataforma desenvolvida para gerenciar a pre
 4. Importe o banco de dados MySQL:
 
     - Abra o phpMyAdmin / ou outro SGBD.
-    - Crie um banco de dados chamado `sistema_frequencia`.
-    - Importe o arquivo `sistema_frequencia.sql` localizado no diretório `packages`.
+    - Importe o arquivo `script.sql` localizado no diretório `packages`.
 
 
 # Configuração do script.sql 📤
