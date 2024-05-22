@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../img/fundo.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    gap: 1rem;
+}
+
+.container div:nth-child(1) , .container div:nth-child(1) > h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-content: center;
+    align-items:left;
+    flex-direction:column;
+    justify-content: left;
+}
+
+
+.button-container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+button {
+    width: 100%;
+    background-color: #FF8C00;
+    color: #080710;
+    padding: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: underline;
+}
+
+.box-01:nth-last-child(2) {
+    padding: 1rem 0rem 0rem 1rem;
+    position: relative;
+    width: 460px;
+    height: 15px;
+    margin: 0.7rem 0rem;
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.box-01:nth-last-child(1){
+    padding: 1rem 0rem 0rem 1rem;
+    position: relative;
+    width: 300px;
+    height: 15px;
+    margin: 0.7rem 0rem;
+    background-color: orangered;
+    border-radius: 50px;
+}

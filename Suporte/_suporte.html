@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Sistema de Frequência</title>
+    <style>
+       .containerAll {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            text-align: center;
+            border-radius: 10px;
+            width: 80%;
+        }
+        h1 {
+            color:  #FF8C00;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        ul {
+            text-align: left;
+            margin: 20px auto;
+            padding: 0;
+            list-style: none;
+            max-width: 600px;
+        }
+
+        ul li {
+            background: #e9f5ff;
+            border-left: 5px solid  #FF8C00;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul li i {
+            color: #007BFF;
+        }
+
+        .form-container {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="containerAll">
+    <div class="container">
+        <h1>Suporte</h1>
+        <p>Se você precisar de ajuda ou suporte técnico, entre em contato conosco pelos seguintes meios:</p>
+        <ul>
+            <li><i class="fas fa-envelope"></i> Email: danielprojetos@gmail.com</li>
+            <li><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</li>
+        </ul>
+        <div class="form-container">
+            <h2>Formulário de Contato</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+   </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
