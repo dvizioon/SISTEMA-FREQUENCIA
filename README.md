@@ -77,7 +77,7 @@ INSERT INTO Administrador(Nome_adm, Cpf_adm,senha_adm, setor_adm, sesao_adm, Ati
 # Configuração Manual de Pesquisas 📦⚠️
 
 > [!WARNING]  
-> Entre no Arquivo `_consulta_aluno.php` e mude o host o banco o usuario é senha para que a consulta de dados funcione.
+> Entre no Arquivo `config.php` e mude o host o banco o usuario é senha para que a consulta de dados funcione.
 ```php
 
 define('Host','seu_host');
