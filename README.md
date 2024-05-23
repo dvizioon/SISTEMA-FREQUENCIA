@@ -23,7 +23,8 @@ O **Sistema de Frequência** é uma plataforma desenvolvida para gerenciar a pre
 
 ## Pré-requisitos
 
-> [!IMPORTANT]  Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+> [!IMPORTANT]
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
 - [Git](https://git-scm.com)
 - [PHP](https://www.php.net/)
@@ -116,9 +117,9 @@ $result = $cns->fetchAll(PDO::FETCH_ASSOC);
 
 ## Uso
 
-Abra seu navegador e vá para `http://localhost/sistema-de-frequencia` para ver o sistema em ação.
+Abra seu navegador e vá para `http://localhost/SISTEMA-FRENQUENCIA` para ver o sistema em ação.
 
-### Páginas dos Logins
+### Páginas dos Login
 > Login Admin
 
 ![Página Inicial](./screenshots/02.png)
